@@ -4,7 +4,15 @@ public class LockedMeMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		UserMenu.InitialMenu("LockedMe", "Jessica Machado");
+		
+		UserFileActions.createMainFolderIfNotPresent("main");
+		
+		UserMenu.initialInfo("LockedMe", "Jessica Machado");
+		
+		
+		HandleUserOptions.handleInitialMenuInput();
+		
+
 	}
 
 }

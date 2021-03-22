@@ -2,7 +2,7 @@ package simplilearn.project.module.one;
 
 public class UserMenu {
 
-	public static void InitialMenu(String appName, String devName) {
+	public static void initialInfo(String appName, String devName) {
 		
 		String companyDetails = String.format("*****************************************************\n"
 				+ "** Welcome to %s.com.  Final project from Simpli Learn Java Module\n" + "** This application was developed by %s.\n"
